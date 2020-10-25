@@ -1,19 +1,19 @@
-import { css } from '@emotion/core';
+import { css } from '@styled-system/css';
 
-function HomeH1({ children }) {
+function HomeH1({ children, fontSize = ['4em', '6em'] }) {
   return (
     <h1
-      css={css`
-        font-family: 'Montserrat', sans-serif;
-        letter-spacing: 0.15em;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #bf9484;
-        font-size: 6em;
-        margin: 0;
-        line-height: 1;
-        text-align: center;
-      `}
+      css={css({
+        fontFamily: "'Montserrat', sans-serif",
+        letterSpacing: '0.15em',
+        fontWeight: '700',
+        textTransform: 'uppercase',
+        color: '#bf9484',
+        fontSize,
+        margin: 0,
+        lineHeight: 1.15,
+        textAlign: 'center',
+      })}
     >
       {children}
     </h1>

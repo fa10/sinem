@@ -1,6 +1,7 @@
 import { css } from '@emotion/core';
 import * as React from 'react';
 import { HeaderLogo } from './header-logo';
+import { HeaderNav } from './header-nav';
 
 function Header() {
   const renderLeft = () => (
@@ -27,6 +28,20 @@ function Header() {
         z-index: 1;
       `}
     ></div>
+  );
+
+  const renderRight = () => (
+    <div
+      css={css`
+        float: right;
+        height: 100%;
+        position: relative;
+        text-align: right;
+        z-index: 2;
+      `}
+    >
+      <HeaderNav />
+    </div>
   );
 
   return (
@@ -62,6 +77,7 @@ function Header() {
         >
           {renderLeft()}
           {renderCenter()}
+          {renderRight()}
         </div>
       </div>
     </header>

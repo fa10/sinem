@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.35",
+    "@styled-system/css": "^5.1.5",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-awesome-slider": "^4.1.0",

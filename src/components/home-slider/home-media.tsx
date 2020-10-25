@@ -3,6 +3,7 @@ import * as React from 'react';
 import { Section } from '../section';
 import { HomeButton } from './home-button';
 import { HomeH1 } from './home-h1';
+import { HomeH2 } from './home-h2';
 
 function HomeSlide() {
   return (
@@ -41,22 +42,9 @@ function HomeSlide() {
               flex-direction: column;
             `}
           >
-            <h2
-              css={css`
-                font-family: 'Quentin';
-                font-weight: 400;
-                text-transform: capitalize;
-                color: white;
-                font-size: 3em;
-                margin: 0;
-                text-align: center;
-              `}
-            >
-              Sinem Küpelikilinc
-            </h2>
-            <HomeH1>Make Up</HomeH1>
-            <HomeButton disabled={true}>Services (Soon)</HomeButton>
-            <HomeButton disabled={true}>Booking (Soon)</HomeButton>
+            <HomeH2>Sinem Küpelikilinc</HomeH2>
+            <HomeButton disabled={true}>Services & Prices (Soon)</HomeButton>
+            <HomeButton disabled={true}>Booking Request (Soon)</HomeButton>
           </div>
         </div>
       </div>

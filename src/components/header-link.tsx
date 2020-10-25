@@ -21,11 +21,11 @@ function HeaderLink({ children, href, ...props }: HeaderLinkProps) {
           vertical-align: middle;
           box-sizing: border-box;
           color: #fff;
-          font-size: 12px;
+          font-size: 1rem;
           height: 100%;
-          padding: 0 16px;
-          font-weight: 500;
-          letter-spacing: 0.25em;
+          padding: 0 1rem;
+          font-weight: 700;
+          letter-spacing: 0.15em;
           line-height: 24px;
           text-transform: uppercase;
           text-decoration: none;

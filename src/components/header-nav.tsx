@@ -24,7 +24,7 @@ function HeaderNav() {
         `}
       >
         <HeaderMenuItem href="/">Home</HeaderMenuItem>
-        <HeaderMenuItem href="/about">About</HeaderMenuItem>
+        {/* <HeaderMenuItem href="/about">About</HeaderMenuItem> */}
       </ul>
     </nav>
   );

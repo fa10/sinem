@@ -21,7 +21,7 @@ function HomeButton({ children, ...props }) {
         background-color: transparent;
         color: white;
         cursor: pointer;
-        margin-top: 2em;
+        margin-top: 1rem;
 
         :hover {
           color: #0d0a0b !important;
