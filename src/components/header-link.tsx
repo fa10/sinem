@@ -21,7 +21,7 @@ function HeaderLink({ children, href, ...props }: HeaderLinkProps) {
           vertical-align: middle;
           box-sizing: border-box;
           color: #fff;
-          font-size: 1rem;
+          font-size: 1em;
           height: 100%;
           padding: 0 1rem;
           font-weight: 700;
