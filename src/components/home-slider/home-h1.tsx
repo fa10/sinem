@@ -8,7 +8,7 @@ function HomeH1({ children, fontSize = ['4em', '6em'] }) {
         letterSpacing: '0.15em',
         fontWeight: '700',
         textTransform: 'uppercase',
-        color: #936767,
+        color: '#936767',
         fontSize,
         margin: 0,
         lineHeight: 1.15,
