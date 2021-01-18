@@ -22,10 +22,7 @@ function HeaderNav() {
           height: 100%;
           margin: 0;
         `}
-      >
-        <HeaderMenuItem href="/">Home</HeaderMenuItem>
-        {/* <HeaderMenuItem href="/about">About</HeaderMenuItem> */}
-      </ul>
+      ></ul>
     </nav>
   );
 }

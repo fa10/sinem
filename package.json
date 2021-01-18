@@ -13,7 +13,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.35",
     "@styled-system/css": "^5.1.5",
-    "next": "9.5.3",
+    "next": "^10.0.1",
     "react": "16.13.1",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "16.13.1",
@@ -26,6 +26,7 @@
     "@types/react": "^16.9.49",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
+    "autoprefixer": "^10.1.0",
     "babel-eslint": "^10.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "eslint": "^7.9.0",
@@ -37,7 +38,9 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.2.1",
     "prettier": "^2.1.1",
+    "tailwindcss": "^2.0.2",
     "typescript": "^4.0.2"
   }
 }

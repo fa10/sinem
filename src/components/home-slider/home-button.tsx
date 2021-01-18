@@ -17,16 +17,16 @@ function HomeButton({ children, ...props }) {
         transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
           border-color 0.2s ease-in-out;
         padding: 1.5em 3em;
-        border: 1px solid white;
-        background-color: transparent;
-        color: white;
+        border: 2px solid #936767;
+        background-color: #936767;
+        color: #eeeae3;
         cursor: pointer;
         margin-top: 1rem;
 
         :hover {
-          color: #0d0a0b !important;
-          background-color: #fff !important;
-          border-color: #fff !important;
+          color: #eeeae3 !important;
+          background-color: #936767 !important;
+          border-color: #936767 !important;
         }
       `}
       {...props}

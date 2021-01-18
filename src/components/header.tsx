@@ -12,9 +12,7 @@ function Header() {
         position: relative;
         z-index: 2;
       `}
-    >
-      <HeaderLogo />
-    </div>
+    ></div>
   );
 
   const renderCenter = () => (
